@@ -4,7 +4,9 @@ import telebot
 
 app = Flask(__name__)
 
-bot = telebot.TeleBot('1918917085:AAFy40NspnYXnrPPGeztaw7XwNPI6PZPeS4')
+yourKey = "insert your key here"
+
+bot = telebot.TeleBot(yourKey)
 
 
 def get_what_to_do():
